@@ -12,7 +12,7 @@ def close():
     
 
 def getCamera(num):
-    return pygame.camera.Camera(pygame.camera.list_cameras()[num])
+    return pygame.camera.Camera(pygame.camera.list_cameras()[num], (1280,720))
 
 def takePicture(cam):
     #print("Taking Picture")
